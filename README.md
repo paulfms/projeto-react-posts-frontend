@@ -9,7 +9,7 @@
 O Projeto Posts do <b>MBA Fullstack Rocketseat</b>, tem como objetivo aplicar os conhecimentos de React, Javascript e Typescript aprendidos em aulas de forma prática.
 
 Nesse projeto foi desenvolvido o front-end aplicando funcionalidades de Criar um novo Comentário no post, informa o tempo da postagem comparando com a data atual, Aplaudir e Deletar o comentário.
-O projeto segue os conceitos de Components e CSS Modules.
+O projeto segue os conceitos de Components, useState, Closures, Key e CSS Modules.
 
 ## 🔔 Ferramentas e Pacotes instalados
 Nesse projeto foi utilizado para a construção do frontend e o server com os seguintes pacotes instalados:
