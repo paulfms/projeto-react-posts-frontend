@@ -1,50 +1,37 @@
-# React + TypeScript + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+![Captura de tela 16 09 2024 às 11 28 09 AM](https://github.com/user-attachments/assets/cc6f28bc-3809-4c0f-8418-45fe31d0ba02)
 
-Currently, two official plugins are available:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+<h1 align="center"> Posts 📄 </h1>
+<p align="center"> Criado no dia 16/09/2024 </p>
 
-## Expanding the ESLint configuration
+## ☀️ Sobre
+O Projeto Posts do <b>MBA Fullstack Rocketseat</b>, tem como objetivo aplicar os conhecimentos de React, Javascript e Typescript aprendidos em aulas de forma prática.
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+Nesse projeto foi desenvolvido o front-end aplicando funcionalidades de Criar um novo Comentário no post, informa o tempo da postagem comparando com a data atual, Aplaudir e Deletar o comentário.
+O projeto segue os conceitos de Components e CSS Modules.
 
-- Configure the top-level `parserOptions` property like this:
+## 🔔 Ferramentas e Pacotes instalados
+Nesse projeto foi utilizado para a construção do frontend e o server com os seguintes pacotes instalados:
 
-```js
-export default tseslint.config({
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
+- date-fns
+- phosphor-react
+- react-dom
+- eslint
+- vite
+- typescript
 
-- Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
-- Optionally add `...tseslint.configs.stylisticTypeChecked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and update the config:
+## 🌩️ Como startar a aplicação?
+Precisará ter o nodejs instalado na versão LTS, o git e um editor de código que recomendo o Visual Studio Code (VScode).
 
-```js
-// eslint.config.js
-import react from 'eslint-plugin-react'
+📢 OBS: É importante que o git esteja configurado na máquina local antes de ser clonado via SSH.
 
-export default tseslint.config({
-  // Set the react version
-  settings: { react: { version: '18.3' } },
-  plugins: {
-    // Add the react plugin
-    react,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended rules
-    ...react.configs.recommended.rules,
-    ...react.configs['jsx-runtime'].rules,
-  },
-})
-```
+1. No terminal faça o clone do projeto na pasta desejada com o comando: `git clone git@github.com:paulfms/projeto-react-posts-frontend.git`
+2. Após isso abra o projeto no VSCode
+3. Para iniciar o projeto no VScode digite o comando no terminal `npm run dev`
+
+## 🎉 Reconhecimento
+
+Rocketseat e Sirius,
+
+Agradeço todo o cuidado que a <b> Rocketseat </b> tem em oferecer o melhor do aprendizado no desenvolvimento web e também muito obrigado ao instrutor e orientador <b> Diego Fernandes </b> por esse módulo em React com conteúdos ricos em conceitos e didática fantástica.
